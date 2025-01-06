@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'OhCar',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'OhCar',
         src: 'img/logo.svg',
       },
       items: [
@@ -68,12 +68,19 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '快速上手',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+
+        {
+          type: 'doc',
+          docId: 'guide',
+          position: 'left',
+          label: '微博观测',
+        },
+        { to: '/docs/category/常见问题和说明', label: '常见问题和说明', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: '关于',
           position: 'right',
         },
       ],
@@ -85,7 +92,7 @@ const config: Config = {
           title: '文档',
           items: [
             {
-              label: '快速上手',
+              label: '使用指南',
               to: '/docs/intro',
             },
           ],
@@ -94,16 +101,12 @@ const config: Config = {
           title: '我们',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '小红书',
+              href: 'http://xhslink.com/a/ayVc9WSgGS62',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '微信公众号',
+              href: '#',
             },
           ],
         },
@@ -111,12 +114,8 @@ const config: Config = {
           title: '更多',
           items: [
             {
-              label: 'Blog',
+              label: '使用教程',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },

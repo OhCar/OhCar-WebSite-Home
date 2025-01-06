@@ -2,46 +2,57 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# OhCar 使用指南
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 简介
 
-## Getting Started
+OhCar，是一款由机器人爸爸独立开发制作的全自动线报推送工具，汇集全网主流平台优惠线报信息（豆瓣微博赚客吧等），完全免费使用！ OhCar 获取每日最新羊毛线报,终极目标就是让每一个人都可以跟上车!!!
 
-Get started by **creating a new site**.
+## 关键词订阅功能使用说明
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+:::info
+关键词订阅推送-->[核心功能,必看]
+:::
+<img src="https://cdn-img.wycloud.life/i/2025/01/06/677b4698ed604.jpg" width="600" alt="关键词推送机制"/>
 
-### What you'll need
+### 如何高效的使用关键词订阅功能
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+OhCar的推送原理：根据用户订阅的关键词&平台，进行关联推送[好的线报具有即时性,越早看到上车成功的概率越高]
 
-## Generate a new site
+**举例说明：**
+- 例1：小文在关注中心-豆瓣平台，添加了关键词：牛奶；当OhCar发现豆瓣平台有牛奶的线报作业时，便会实时推送给您；
+- 例2：小文在关注中心-豆瓣平台-微博平台，添加了关键词：牛奶；当OhCar发现（豆瓣&微博）平台有牛奶的线报作业时，便会实时推送给您；
 
-Generate a new Docusaurus site using the **classic template**.
+因为每个平台的内容质量参差不齐，大家可以根据需求订阅单个或多个平台的关键词。
 
-The classic template will automatically be added to your project after you run the command:
+## 苹果/安卓 实现后台消息推送通知
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 苹果用户
+- 无需其它操作，只要在OhCar订阅关键词后，便会收到消息通知
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 安卓用户
+因国内应用市场限制，需根据自己的手机品牌进行特定设置；以下是一些通用设置方法，若无效果，则需要您自行百度搜索相关的设置：
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+1. 开启OhCar的应用通知权限和白名单（防止后台杀掉缓存）
+2. 在节电模式将OhCar设置为不节电保持运行
+3. 打开OhCar，切换到其它APP或桌面时，不要关闭OhCar，保持后台运行
 
-## Start your site
+:::note
+我们在努力寻求更合适的推送方案，已上线公众号推送提醒功能；您可以关注我们的公众号（OhCar），在公众号上免费开通线报推送提醒服务！
+:::
 
-Run the development server:
+## 👏 在线支持
 
-```bash
-cd my-website
-npm run start
-```
+如果您在使用OhCar时遇到问题？或希望添加更多的线报来源平台...
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+打开OhCar服务号，即可和我们一对一直接沟通 ，我们很开心和各位唠唠。不过由于白天日常在搬砖，很难做到即时响应，一般24 小时内会有答复，请诸位见谅
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+- 在微信公众号搜索：OhCar
+- [加入QQ交流群](https://qm.qq.com/q/VNzdokmlm8) 一起分享使用心得
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 社区交流
+
+除了微信公众号也可以在小红书搜索「OhCar」，来看看大家分享了什么新的使用心得和技巧，以及在折腾什么有趣的活动。
+
+- 点击查看 [OhCar@小红书](http://xhslink.com/a/ayVc9WSgGS62)
+
